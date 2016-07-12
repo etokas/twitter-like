@@ -7,18 +7,18 @@ require_once 'Twitter.php';
 $app = new \Silex\Application(['debug' => true]);
 
 /**
- * CONFIGURATION KEYS
+ * CONFIGURATION KEYS OBLIGATOIRE
  */
 
 /** Nom de votre compte twitter */
-$screen_name = 'gobiglexis';
+$screen_name = 'xxx';
 
 /** Vos clefs d'autentification */
 $keys = array(
-    'oauth_access_token' => "124470704-OC6JNAkXGpE99FbqubOTKi1ikoR2JvJTVy9VaV5R",
-    'oauth_access_token_secret' => "UFEhi57xlWale9hsPIOZxW4VvoiMoiFVP8XgHfDqowk0q",
-    'consumer_key' => "1Y8YnVQbEUhgLGOCee8coC20v",
-    'consumer_secret' => "M3RJVGhRNKx9Euc605PsQh3VaPgpz0uokXkQO4pMBuDEARwWOk"
+    'oauth_access_token' => "xxx",
+    'oauth_access_token_secret' => "xxx",
+    'consumer_key' => "xxx",
+    'consumer_secret' => "xxx"
 );
 
 
