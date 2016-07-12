@@ -1,6 +1,6 @@
 # WE DO GOOD
 
-Assurez vous d'avoir `composer.phar` ainsi que `bower` d'installé sur votre machine
+Assurez-vous d'avoir `composer.phar` ainsi que `bower` sur votre machine
 
 Dans le dossier `/we-do-good/public` : faites -> `bower install`
 
@@ -14,16 +14,16 @@ Se rendre sur :
 [http://localhost/we-do-good/public/#/](http://localhost/we-do-good/public/#/)
 
 
-- Le dosssier `/we-do-good/server` contient les sources en PHP qui font appel a l'api de twitter pour traiter les données.
+- Le dossier `/we-do-good/server` contient les sources en PHP qui font appel a l'api de twitter pour traiter les données.
 
-- Le dossier `/we-do-good/public` continet les sources en javascrip pour la partie front-end 
+- Le dossier `/we-do-good/public` conteint les sources en JavaScript pour la partie front-end 
 
 
 
 
 Pour finir modifier le fichier `/we-do-good/server/app/index.php` 
 
-Inserez le nom et vos clefs twitter
+Inserez le nom et vos clefs Twitter pour l'authentification 
 
 ```javascript
 /**
