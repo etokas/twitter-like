@@ -1,0 +1,34 @@
+body {
+    background: #f5f8fa;
+}
+
+.one-tweet{
+    border: 1px solid #cdcdcd;
+    margin: 5px;
+    background: #fff;
+    border-radius: 5px;
+
+}
+
+.me span{
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    font-weight:bold;
+}
+.me .user{
+    font-weight: 500;
+}
+
+.one-user{
+    margin: 10px;
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.description{
+    margin: 0 10px;
+}

@@ -1,0 +1,1 @@
+angular.module('we-do-good', [ 'ngRoute', 'app-routes', 'home-ctrl', 'search-ctrl']);

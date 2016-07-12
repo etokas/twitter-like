@@ -1,0 +1,27 @@
+<div>
+    <h3>Mes derniers tweets</h3>
+
+
+    <div class="col-sm-5">
+        <h4>Time line général</h4>
+
+        <div class="all-tweets" ng-repeat="tweet in tweets">
+            <blockquote class="one-tweet">
+                <p>{{ tweet.text }}</p>
+                <footer>Tweeté par : <a href="#/user/{{tweet.user.id}}">{{ tweet.user.screen_name}}</a></footer>
+            </blockquote>
+        </div>
+
+    </div>
+
+    <div class="col-sm-7">
+        <h4>Ma time line</h4>
+
+        <div class="all-tweets" ng-repeat="tweet in timelines">
+            <blockquote class="one-tweet">
+                <p>{{ tweet.text }}</p>
+                <footer>Tweeté par : <a href="#/user/{{tweet.user.id}}">{{ tweet.user.screen_name}}</a></footer>
+            </blockquote>
+        </div>
+    </div>
+</div>

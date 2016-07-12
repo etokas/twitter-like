@@ -1,0 +1,17 @@
+<div class="search row">
+    <h3>Resultat de recherche</h3>
+    <div class="result-search col-sm-8" ng-repeat="user in users | orderBy:sortType:sortReverse">
+        <div class="one-user">
+            <a href="#/user/{{user.id}}">
+                <div class="img col-sm-4">
+                    <img src="{{ user.profile_image_url }}" alt="{{ user.screen_name}}">
+                </div>
+            </a>
+            <p>{{ user.name }}</p>
+            <a href="#/user/{{user.id}}">
+                <p>@{{ user.screen_name }}</p>
+            </a>
+            <p class="description">{{user.description}}</p>
+        </div>
+    </div>
+</div>

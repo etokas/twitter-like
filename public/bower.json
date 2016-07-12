@@ -1,0 +1,13 @@
+{
+  "name": "we-do-good",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "angular-socket-io": "^0.7.0",
+    "ngToast": "ngtoast#^2.0.0",
+    "angular-resource": "^1.5.7"
+  }
+}

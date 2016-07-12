@@ -1,0 +1,7 @@
+{
+    "require": {
+        "guzzle/guzzle": "~3.9",
+        "silex/silex": "~1.1",
+        "j7mbo/twitter-api-php": "^1.0"
+    }
+}

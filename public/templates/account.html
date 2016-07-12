@@ -1,0 +1,17 @@
+<div class="me text-center">
+    <img src="{{ me.profile_image_url }}" alt="" class="img-thumbnail"><br>
+    <p>@{{ me.screen_name }}</p>
+    <p>{{ me.name }}</p><br>
+    {{ me.description }}<br>
+    Location : {{ me.location }}<br><br>
+
+    <span>Suit : {{ me.friends_count }} followers</span> | <span>Suivis par : {{ me.followers_count }} follows</span>
+
+    <h4>Derniers tweets</h4>
+    <div class="all-tweets" ng-repeat="tweet in timelines">
+        <blockquote class="one-tweet">
+            <p>{{ tweet.text }}</p>
+            <footer>Tweeté par : <a href="#/user/{{tweet.user.id}}">{{ tweet.user.screen_name}}</a></footer>
+        </blockquote>
+    </div>
+</div>

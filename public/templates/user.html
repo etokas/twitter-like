@@ -1,0 +1,18 @@
+<div class="me text-center">
+    <img src="{{ user.profile_image_url }}" alt="" class="img-thumbnail"><br>
+    <p class="user">@{{ user.screen_name }}</p>
+    <p>{{ user.name }}</p><br>
+    {{ user.description }}<br>
+    Location : {{ user.location }}<br>
+    <button ng-if="user.following == true" class="btn btn-success">Vous le suivez</button>
+    <br><br>
+    <span>Suit : {{ user.friends_count }} followers</span> | <span>Suivis par : {{ user.followers_count }} follows</span><br>
+    <h4>Ses derniers tweets</h4>
+    <div class="all-tweets" ng-repeat="tweet in tweetsUser">
+        <blockquote class="one-tweet">
+            <p>{{ tweet.text }}</p>
+            <footer>Tweeté par : <a href="#/user/{{tweet.user.id}}">{{ tweet.user.screen_name}}</a></footer>
+        </blockquote>
+    </div>
+
+</div>
